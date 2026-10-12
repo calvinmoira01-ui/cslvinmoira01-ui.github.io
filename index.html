@@ -2,14 +2,102 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>QrBit - Developer Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QrBit - Developer & Support Page</title>
+    <style>
+        :root {
+            --primary-color: #4f46e5;
+            --text-color: #1f2937;
+            --bg-color: #f9fafb;
+            --card-bg: #ffffff;
+            --border-color: #e5e7eb;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: var(--card-bg);
+            max-width: 600px;
+            width: 100%;
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid var(--border-color);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2rem;
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: #6b7280;
+            font-size: 1rem;
+            margin-bottom: 24px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            margin-top: 24px;
+            margin-bottom: 8px;
+            border-bottom: 2px solid var(--bg-color);
+            padding-bottom: 4px;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #4b5563;
+            margin-top: 0;
+        }
+
+        .contact-box {
+            background-color: var(--bg-color);
+            padding: 16px;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-color);
+            margin-top: 12px;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>QrBit</h1>
-    <p>Welcome to the official support page for QrBit.</p>
-    <h2>Privacy Policy</h2>
-    <p>QrBit respects your privacy and does not collect personal data without consent.</p>
-    <h2>Contact</h2>
-    <p>Email: calvinmoira01@gmail.com</p>
+    <div class="container">
+        <h1>QrBit</h1>
+        <p class="subtitle">Official Support & Privacy Policy Page</p>
+
+        <h2>About</h2>
+        <p>Welcome to the official support page for <strong>QrBit</strong>.</p>
+
+        <h2>Privacy Policy</h2>
+        <p>QrBit respects user privacy and is committed to protecting it. The app does not collect or share personal information without explicit user consent.</p>
+
+        <h2>Contact Support</h2>
+        <div class="contact-box">
+            <p style="margin: 0;">Have questions or need assistance? Reach out to us at:</p>
+            <p style="margin: 8px 0 0 0;"><a href="mailto:calvinmoira01@gmail.com">calvinmoira01@gmail.com</a></p>
+        </div>
+    </div>
 </body>
 </html>
